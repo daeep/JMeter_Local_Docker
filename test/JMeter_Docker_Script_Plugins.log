@@ -1,0 +1,403 @@
+2020-05-15 22:21:59,349 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-05-15 22:21:59,383 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-5.2.1/bin/user.properties
+2020-05-15 22:21:59,384 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-5.2.1/bin/system.properties
+2020-05-15 22:21:59,386 INFO o.a.j.JMeter: Setting JMeter property: threads=50
+2020-05-15 22:21:59,386 INFO o.a.j.JMeter: Setting JMeter property: rampup=50
+2020-05-15 22:21:59,387 INFO o.a.j.JMeter: Setting JMeter property: duration=240
+2020-05-15 22:21:59,389 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-05-15 22:21:59,390 INFO o.a.j.JMeter: Version 5.2.1
+2020-05-15 22:21:59,391 INFO o.a.j.JMeter: java.version=1.8.0_242
+2020-05-15 22:21:59,391 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-05-15 22:21:59,392 INFO o.a.j.JMeter: os.name=Linux
+2020-05-15 22:21:59,392 INFO o.a.j.JMeter: os.arch=amd64
+2020-05-15 22:21:59,394 INFO o.a.j.JMeter: os.version=4.19.76-linuxkit
+2020-05-15 22:21:59,396 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-05-15 22:21:59,397 INFO o.a.j.JMeter: java.awt.headless=true
+2020-05-15 22:21:59,397 INFO o.a.j.JMeter: Max memory     =2449473536
+2020-05-15 22:21:59,398 INFO o.a.j.JMeter: Available Processors =4
+2020-05-15 22:21:59,405 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-05-15 22:21:59,406 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-05-15 22:21:59,407 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-5.2.1
+2020-05-15 22:21:59,409 INFO o.a.j.JMeter: user.dir  =/Users/antoniojn/Documents/GitHub/JMeter_Local_Docker
+2020-05-15 22:21:59,410 INFO o.a.j.JMeter: PWD       =/Users/antoniojn/Documents/GitHub/JMeter_Local_Docker
+2020-05-15 22:21:59,411 INFO o.a.j.JMeter: IP: 172.17.0.2 Name: 81abb135ac97 FullName: 81abb135ac97
+2020-05-15 22:21:59,420 INFO o.a.j.s.FileServer: Default base='/Users/antoniojn/Documents/GitHub/JMeter_Local_Docker'
+2020-05-15 22:21:59,428 INFO o.a.j.s.FileServer: Set new base='/Users/antoniojn/Documents/GitHub/JMeter_Local_Docker/test'
+2020-05-15 22:21:59,653 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-15 22:21:59,671 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-15 22:21:59,683 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-15 22:21:59,698 INFO o.a.j.s.SaveService: Loading file: test/JMeter_Docker_Script_Plugins.jmx
+2020-05-15 22:22:00,231 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-05-15 22:22:00,260 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-05-15 22:22:00,262 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-15 22:22:00,263 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-15 22:22:00,269 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-05-15 22:22:00,270 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-05-15 22:22:00,279 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_http.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,286 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_core.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,287 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_bolt.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,289 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_native.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,291 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_functions.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,313 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_mail.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,314 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_mongodb.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,315 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_java.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,317 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_tcp.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,318 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_ldap.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,319 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_junit.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,320 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_jms.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,321 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_ftp.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,322 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_components.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,323 WARN o.a.j.r.ClassFinder: Can not open the jar /home/jmeter/apache-jmeter-5.2.1/lib/ext/._ApacheJMeter_jdbc.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_242]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169) ~[?:1.8.0_242]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:393) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:329) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302) [jorphan.jar:5.2.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:234) [jorphan.jar:5.2.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:55) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:361) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+2020-05-15 22:22:00,666 INFO o.a.j.JMeter: Running test (1589581320665)
+2020-05-15 22:22:00,767 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-05-15 22:22:00,768 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group.
+2020-05-15 22:22:00,769 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-15 22:22:00,769 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=50 delayedStart=true
+2020-05-15 22:22:00,772 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-05-15 22:22:00,773 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-05-15 22:22:00,787 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-05-15 22:22:01,207 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-15 22:22:01,208 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-15 22:22:01,209 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-15 22:22:01,209 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-15 22:22:01,286 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    1.6/s Avg:    62 Min:    62 Max:    62 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-05-15 22:22:01,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-05-15 22:22:02,826 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-05-15 22:22:03,848 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-05-15 22:22:04,871 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-05-15 22:22:05,903 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-05-15 22:22:06,918 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-05-15 22:22:07,939 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-05-15 22:22:08,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-05-15 22:22:09,985 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-05-15 22:22:11,006 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-05-15 22:22:12,028 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-05-15 22:22:13,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-05-15 22:22:14,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-05-15 22:22:15,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-05-15 22:22:16,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-05-15 22:22:17,116 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-05-15 22:22:18,139 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-05-15 22:22:19,159 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-05-15 22:22:20,181 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-05-15 22:22:21,206 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-05-15 22:22:22,228 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-05-15 22:22:23,250 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-05-15 22:22:24,271 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-05-15 22:22:25,292 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-05-15 22:22:26,312 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2020-05-15 22:22:27,334 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2020-05-15 22:22:28,355 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2020-05-15 22:22:29,374 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2020-05-15 22:22:30,061 INFO o.a.j.r.Summariser: summary +    436 in 00:00:29 =   15.2/s Avg:   275 Min:    50 Max:   536 Err:     0 (0.00%) Active: 29 Started: 29 Finished: 0
+2020-05-15 22:22:30,062 INFO o.a.j.r.Summariser: summary =    437 in 00:00:29 =   14.9/s Avg:   274 Min:    50 Max:   536 Err:     0 (0.00%)
+2020-05-15 22:22:30,395 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2020-05-15 22:22:31,417 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2020-05-15 22:22:32,439 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2020-05-15 22:22:33,458 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2020-05-15 22:22:34,479 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2020-05-15 22:22:35,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2020-05-15 22:22:36,519 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2020-05-15 22:22:37,541 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2020-05-15 22:22:38,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2020-05-15 22:22:39,583 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2020-05-15 22:22:40,602 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2020-05-15 22:22:41,620 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2020-05-15 22:22:42,638 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2020-05-15 22:22:43,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2020-05-15 22:22:44,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2020-05-15 22:22:45,670 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2020-05-15 22:22:46,693 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2020-05-15 22:22:47,715 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2020-05-15 22:22:48,739 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2020-05-15 22:22:49,758 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2020-05-15 22:22:50,776 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2020-05-15 22:23:00,001 INFO o.a.j.r.Summariser: summary +   1283 in 00:00:30 =   42.9/s Avg:   270 Min:    50 Max:   870 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:23:00,003 INFO o.a.j.r.Summariser: summary =   1720 in 00:00:59 =   29.0/s Avg:   271 Min:    50 Max:   870 Err:     0 (0.00%)
+2020-05-15 22:23:30,037 INFO o.a.j.r.Summariser: summary +   1501 in 00:00:30 =   50.0/s Avg:   276 Min:    51 Max:   917 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:23:30,039 INFO o.a.j.r.Summariser: summary =   3221 in 00:01:29 =   36.0/s Avg:   274 Min:    50 Max:   917 Err:     0 (0.00%)
+2020-05-15 22:24:00,018 INFO o.a.j.r.Summariser: summary +   1501 in 00:00:30 =   50.1/s Avg:   284 Min:    51 Max:   999 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:24:00,022 INFO o.a.j.r.Summariser: summary =   4722 in 00:01:59 =   39.6/s Avg:   277 Min:    50 Max:   999 Err:     0 (0.00%)
+2020-05-15 22:24:30,030 INFO o.a.j.r.Summariser: summary +   1498 in 00:00:30 =   49.9/s Avg:   277 Min:    50 Max:   958 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:24:30,033 INFO o.a.j.r.Summariser: summary =   6220 in 00:02:29 =   41.6/s Avg:   277 Min:    50 Max:   999 Err:     0 (0.00%)
+2020-05-15 22:25:00,009 INFO o.a.j.r.Summariser: summary +   1500 in 00:00:30 =   50.0/s Avg:   280 Min:    50 Max:   861 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:25:00,011 INFO o.a.j.r.Summariser: summary =   7720 in 00:02:59 =   43.0/s Avg:   277 Min:    50 Max:   999 Err:     0 (0.00%)
+2020-05-15 22:25:30,024 INFO o.a.j.r.Summariser: summary +   1501 in 00:00:30 =   50.0/s Avg:   277 Min:    50 Max:   852 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:25:30,094 INFO o.a.j.r.Summariser: summary =   9221 in 00:03:29 =   44.0/s Avg:   277 Min:    50 Max:   999 Err:     0 (0.00%)
+2020-05-15 22:26:00,019 INFO o.a.j.r.Summariser: summary +   1501 in 00:00:30 =   50.0/s Avg:   273 Min:    50 Max:   909 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2020-05-15 22:26:00,020 INFO o.a.j.r.Summariser: summary =  10722 in 00:03:59 =   44.8/s Avg:   277 Min:    50 Max:   999 Err:     0 (0.00%)
+2020-05-15 22:26:00,030 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2020-05-15 22:26:00,030 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-05-15 22:26:00,032 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-05-15 22:26:00,042 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-05-15 22:26:00,063 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-05-15 22:26:00,064 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-05-15 22:26:00,105 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-05-15 22:26:00,194 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-05-15 22:26:00,217 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-05-15 22:26:00,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-05-15 22:26:00,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-05-15 22:26:00,230 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-05-15 22:26:00,249 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-05-15 22:26:00,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-05-15 22:26:00,347 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-05-15 22:26:00,355 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-05-15 22:26:00,389 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-05-15 22:26:00,399 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-05-15 22:26:00,429 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-05-15 22:26:00,434 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-05-15 22:26:00,439 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-05-15 22:26:00,465 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-05-15 22:26:00,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-05-15 22:26:00,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2020-05-15 22:26:00,551 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2020-05-15 22:26:00,573 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-05-15 22:26:00,573 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-05-15 22:26:00,584 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2020-05-15 22:26:00,594 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2020-05-15 22:26:00,608 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-05-15 22:26:00,617 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2020-05-15 22:26:00,643 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2020-05-15 22:26:00,662 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2020-05-15 22:26:00,705 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2020-05-15 22:26:00,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2020-05-15 22:26:00,743 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2020-05-15 22:26:00,760 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2020-05-15 22:26:00,768 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2020-05-15 22:26:00,822 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-30
+2020-05-15 22:26:00,824 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2020-05-15 22:26:00,830 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-47
+2020-05-15 22:26:00,832 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2020-05-15 22:26:00,847 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-41
+2020-05-15 22:26:00,849 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2020-05-15 22:26:00,865 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-36
+2020-05-15 22:26:00,866 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2020-05-15 22:26:00,973 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-44
+2020-05-15 22:26:00,974 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2020-05-15 22:26:00,975 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-48
+2020-05-15 22:26:00,976 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2020-05-15 22:26:01,025 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-40
+2020-05-15 22:26:01,026 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2020-05-15 22:26:01,033 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-39
+2020-05-15 22:26:01,034 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-38
+2020-05-15 22:26:01,034 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2020-05-15 22:26:01,035 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2020-05-15 22:26:01,042 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-42
+2020-05-15 22:26:01,043 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2020-05-15 22:26:01,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-43
+2020-05-15 22:26:01,147 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2020-05-15 22:26:01,291 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-49
+2020-05-15 22:26:01,292 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2020-05-15 22:26:01,293 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-05-15 22:26:01,303 INFO o.a.j.r.Summariser: summary +     52 in 00:00:01 =   40.5/s Avg:   269 Min:    51 Max:   531 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2020-05-15 22:26:01,304 INFO o.a.j.r.Summariser: summary =  10774 in 00:04:01 =   44.8/s Avg:   277 Min:    50 Max:   999 Err:     0 (0.00%)
